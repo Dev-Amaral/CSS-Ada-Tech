@@ -1,11 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .fundo{
-    height: 50vh;
-    width: 100vh;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PCXULpT9WjTmmpKFKvfzdPGi3i1g6Hxv-g&s);
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://imagedelivery.net/qc7VvyphMGWFiPVvTbB-ww/swapps.com/2017/01/animations-with-css-3.png/w=800,h=500);
     background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 background-color: azure;
+background-attachment: fixed;
 }
 :root{
     font-size: 62.5%;
@@ -36,4 +43,42 @@ color: white;
 table{
     font-size: 2.4rem;
     border-collapse: separate;
+}
+
+ul,ol{
+
+    /* padding-left: 0; tira os marcadores */
+}
+
+ul{
+    list-style: square;
+}
+ol{
+    /* list-style: decimal-leading-zero; 01 02*/
+    list-style: upper-roman;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    border: 15px solid #555;
+    margin: 15px;
+    padding: 15px;
+    /* margin fora do elemento e padding dentro */
+    /* display: block; nao deixa nada do lado */
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    /* display: inline;nao respeita altura e largura */
+    border-radius: 5rem;
+}
+img{
+    height: 10rem;
+    width: 500px;
+    object-fit: cover;
+}
+
+main{
+    margin: 20px;
+    padding: 20px;
 }
