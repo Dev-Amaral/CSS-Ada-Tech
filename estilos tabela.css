@@ -1,0 +1,39 @@
+.fundo{
+    height: 50vh;
+    width: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PCXULpT9WjTmmpKFKvfzdPGi3i1g6Hxv-g&s);
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: azure;
+}
+:root{
+    font-size: 62.5%;
+}
+h1{
+    color:blueviolet;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+body{
+    font-family: 'times new roman';
+    font-size: 1.8rem;
+}
+table,td,th{
+border:1px solid black;
+}
+
+table thead{
+    background-color: steelblue;
+    color: antiquewhite;
+}
+
+table tr:nth-child(2n+2){
+background-color: rgb(16, 15, 15);
+color: white;
+}
+table{
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
