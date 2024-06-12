@@ -5,10 +5,10 @@
 }
 
 .fundo{
-    height: 100vh;
-    width: 100vw;
-    background-image: url(https://imagedelivery.net/qc7VvyphMGWFiPVvTbB-ww/swapps.com/2017/01/animations-with-css-3.png/w=800,h=500);
-    background-size: cover;
+height: 100vh;
+width: 100vw;
+background-image: url(https://imagedelivery.net/qc7VvyphMGWFiPVvTbB-ww/swapps.com/2017/01/animations-with-css-3.png/w=800,h=500);
+background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 background-color: azure;

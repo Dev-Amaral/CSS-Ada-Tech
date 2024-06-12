@@ -1,0 +1,154 @@
+.root{
+    font-size: 62.5%;
+}
+
+.fundo{
+    height: 20vh;
+    width: 100vw;
+    background-image: url(https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsX29mZmljZV8zN19hX21pbmltYWxfYW5kX2xlc3NfZGV0YWlsX2lsbHVzdHJhdGlvbl9vZl9jYV9jOGZmMjUyYy0wNWU2LTRmNzAtYTY4My1lOWUyMzRkOGE0NDBfMS5qcGc.jpg);
+    background-attachment: fixed;
+background-size: cover;
+    
+
+}
+.titulo{
+    color: purple;
+    text-align: center;
+
+}
+thead{
+    background-color: mediumblue;
+    color: white;
+
+}
+
+table tr:nth-child(2n+2){
+    background-color: silver;
+}
+
+#tabela{
+    border: 1px solid black ;
+    border-style: ;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: separate;
+}
+
+[data-company="CO"]{
+    background-color: aqua;
+}
+@media screen and (min-width: 1000px){
+    .fundo{
+        height: 50vh;
+    }
+}
+@media screen and (min-width: 767px)and (max-width:999px){
+    .fundo{
+        height: 50vh;
+    }
+}
+@media screen and  (max-width:766px){
+    #tabela{
+        display: none;
+        }
+}
+
+
+@media print{
+    .fundo
+    {
+        display: none;
+    }
+}
+
+[data-button="products"]{
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    font-size: 2.8rem;
+    padding: 0.6rem 2.4rem;
+    cursor: pointer;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s ease-in-out, background-color 1.2s ease-in-out;
+    /* transform: scale(0.5) rotate(30deg); */
+    /* nao ve mas da pra clicaropacity: 0; */
+/* visibility: hidden nao ve e nem clica mas ocupa espaço; */
+}
+
+[data-button="products"]:hover{
+    transform: scale(1.2) ;
+    background-color: slategray;
+    color: rgb(15, 15, 14);
+}
+
+[data-button="team"]{
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    font-size: 2.8rem;
+    padding: 0.6rem 2.4rem;
+    cursor: pointer;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s ease-in-out, background-color 1.2s ease-in-out;
+    /* transform: scale(0.5) rotate(30deg); */
+    /* nao ve mas da pra clicaropacity: 0; */
+/* visibility: hidden nao ve e nem clica mas ocupa espaço; */
+animation: pulse 2s infinite;
+transform: scale(1);
+animation-direction: alternate;
+/* alterna a animação pra repetir */
+}
+
+.spinner-containner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fa-spinner{
+    margin-top: 3rem;
+    margin: 4rem;
+    font-size: 5rem;
+    color: blueviolet;
+    animation: load 1s infinite;
+}
+
+@keyframes load {
+    0%{
+        transform: rotatez(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes pulse {
+0%{
+    transform: scale(1);
+    opacity: 1;
+}
+50%{
+    transform: scale(1.35);
+    opacity: .6;
+}
+100%{
+    transform: scale(1);
+    opacity: 1;
+}
+    
+}
+
+/* animação de carregamento */
+h1{
+    /* display: none; apaga e tira o espaço */
+    /* visibility: hidden; some mas ainda ocupa espaço */
+    /* opacity: varia de 0 a 1 opacidade do elemento; */
+    
+}

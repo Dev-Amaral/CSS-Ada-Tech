@@ -1,0 +1,11 @@
+.root{
+    font-size: 62,5%;
+}
+
+.barraPesquisa{
+    background-color: aliceblue;
+    min-width: 8rem;
+    min-height: 2rem;
+    align-items: center;
+    padding: 10rem;
+}
